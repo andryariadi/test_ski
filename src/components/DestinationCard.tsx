@@ -3,16 +3,25 @@ import Image from "next/image";
 
 interface DestinationCardProps {
   destination: Destination;
+  isActive?: boolean;
 }
 
-export default function DestinationCard({ destination }: DestinationCardProps) {
+// position={[destination.coordinates[0], destination.coordinates[1]]}
+
+export default function DestinationCard({ destination, isActive = false }: DestinationCardProps) {
   console.log(destination, "<--- destinationCard");
 
   return (
     <div className="b-green-600 flex flex-col items-center justify-center">
-      <figure className="group hover:bg-gray-900 w-full max-w-sm rounded-lg hover:shadow-md hover:shadow-gray-800/50 transition-all duration-300 overflow-hidden">
+      <figure className={`group hover:bg-gray-900 w-full max-w-sm rounded-lg hover:shadow-md hover:shadow-gray-800/50 transition-all duration-300 overflow-hidden ${isActive ? "bg-rose-900" : ""}`}>
         {/* Image Card */}
-        <Image src={destination.image} alt={destination.name} width={500} height={500} className="object-cover rounded-lg shadow-md shadow-gray-600/50 group-hover:shadow-none group-hover:rounded-none transition-all duration-300" />
+        <Image
+          src={destination.image}
+          alt={destination.name}
+          width={500}
+          height={500}
+          className="min-w-full object-cover rounded-lg shadow-md shadow-gray-600/50 group-hover:shadow-none group-hover:rounded-none transition-all duration-300"
+        />
 
         {/* Caption */}
         <figcaption className="p-4 space-y-5">

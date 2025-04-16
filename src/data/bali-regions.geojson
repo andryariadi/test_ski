@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Denpasar",
+        "density": 4500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [115.1889, -8.7279],
+            [115.2401, -8.7279],
+            [115.2401, -8.6705],
+            [115.1889, -8.6705],
+            [115.1889, -8.7279]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Badung",
+        "density": 1200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [115.1439, -8.5931],
+            [115.2, -8.5931],
+            [115.2, -8.5],
+            [115.1439, -8.5],
+            [115.1439, -8.5931]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Gianyar",
+        "density": 900
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [115.25, -8.45],
+            [115.35, -8.45],
+            [115.35, -8.55],
+            [115.25, -8.55],
+            [115.25, -8.45]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Buleleng",
+        "density": 500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.8, -8.0],
+            [115.2, -8.0],
+            [115.2, -8.3],
+            [114.8, -8.3],
+            [114.8, -8.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Bangli",
+        "density": 600
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [115.3, -8.3],
+            [115.4, -8.3],
+            [115.4, -8.4],
+            [115.3, -8.4],
+            [115.3, -8.3]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Jembrana",
+        "density": 400
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.5, -8.3],
+            [114.8, -8.3],
+            [114.8, -8.5],
+            [114.5, -8.5],
+            [114.5, -8.3]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "Karangasem",
+        "density": 700
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [115.4, -8.3],
+            [115.6, -8.3],
+            [115.6, -8.5],
+            [115.4, -8.5],
+            [115.4, -8.3]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "Tabanan",
+        "density": 800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [115.0, -8.3],
+            [115.2, -8.3],
+            [115.2, -8.5],
+            [115.0, -8.5],
+            [115.0, -8.3]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Klungkung",
+        "density": 650
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [115.35, -8.5],
+            [115.45, -8.5],
+            [115.45, -8.6],
+            [115.35, -8.6],
+            [115.35, -8.5]
+          ]
+        ]
+      }
+    }
+  ]
+}
