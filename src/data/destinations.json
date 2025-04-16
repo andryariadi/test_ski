@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Denpasar",
+    "location": "Denpasar, Bali",
+    "description": "As the capital city of Bali Province, Denpasar serves as the center of government, business, and education. It offers a blend of traditional Balinese culture and modern urban life. The city is known for its traditional markets and museums showcasing the history and art of Bali.",
+    "image": "/denpasar.jpeg",
+    "coordinates": [-8.6705, 115.2126]
+  },
+  {
+    "id": 2,
+    "name": "Badung",
+    "location": "Badung, Bali",
+    "description": "Badung Regency is home to some of Bali's most famous beaches and tourist areas including Kuta, Seminyak, and Nusa Dua. It's the main tourist hub of Bali with luxury resorts, vibrant nightlife, and world-class surfing spots.",
+    "image": "/badung.jpg",
+    "coordinates": [-8.5931, 115.1439]
+  },
+  {
+    "id": 3,
+    "name": "Gianyar",
+    "location": "Gianyar, Bali",
+    "description": "Gianyar is known for its traditional crafts and cultural heritage. It houses the famous Bali Safari and Marine Park, Goa Gajah (Elephant Cave), and the art village of Ubud which is the cultural heart of Bali.",
+    "image": "/gianyar.jpg",
+    "coordinates": [-8.5415, 115.3227]
+  },
+  {
+    "id": 4,
+    "name": "Buleleng",
+    "location": "Buleleng, Bali",
+    "description": "Buleleng is the largest regency in Bali located in the northern part of the island. It features Lovina Beach with its black sand and dolphin sightings, as well as the Gitgit Waterfall and the hot springs of Air Panas.",
+    "image": "/buleleng.jpg",
+    "coordinates": [-8.1258, 115.0434]
+  },
+  {
+    "id": 5,
+    "name": "Bangli",
+    "location": "Bangli, Bali",
+    "description": "Bangli is the only regency in Bali without a coastline. It's home to the sacred Mount Batur and Lake Batur in Kintamani, offering stunning volcanic landscapes and cool mountain air.",
+    "image": "/bangli.jpg",
+    "coordinates": [-8.2833, 115.35]
+  },
+  {
+    "id": 6,
+    "name": "Jembrana",
+    "location": "Jembrana, Bali",
+    "description": "Jembrana is located in western Bali and is known for its West Bali National Park, Medewi Beach (famous for surfing), and the unique buffalo races called Makepung. It's less touristy than other parts of Bali.",
+    "image": "/jembrana.jpg",
+    "coordinates": [-8.3, 114.6667]
+  },
+  {
+    "id": 7,
+    "name": "Karangasem",
+    "location": "Karangasem, Bali",
+    "description": "Karangasem in eastern Bali features the majestic Mount Agung, the mother temple Besakih, and the beautiful water palace Tirta Gangga. It offers a mix of stunning landscapes and important cultural sites.",
+    "image": "/karangasem.jpg",
+    "coordinates": [-8.3833, 115.5167]
+  },
+  {
+    "id": 8,
+    "name": "Tabanan",
+    "location": "Tabanan, Bali",
+    "description": "Tabanan is known as Bali's rice basket with its beautiful terraced rice fields, including the famous Jatiluwih Rice Terraces (UNESCO World Heritage). It also features Tanah Lot, one of Bali's most iconic sea temples.",
+    "image": "/tabanan.webp",
+    "coordinates": [-8.5333, 115.1333]
+  },
+  {
+    "id": 9,
+    "name": "Klungkung",
+    "location": "Klungkung, Bali",
+    "description": "Klungkung is the smallest regency in Bali but rich in history. It's home to the Kerta Gosa pavilion with its famous ceiling paintings, the Nusa Penida island group, and beautiful traditional villages.",
+    "image": "/klungkung.jpg",
+    "coordinates": [-8.5333, 115.4]
+  }
+]
