@@ -15,12 +15,15 @@ export default function DestinationInfo({ destinations }: DestinationInfoProps) 
   console.log({ destinations, activeDestination }, "<---destinationInfo");
 
   return (
-    <div className="b-fuchsia-600 grid grid-cols-1 lg:grid-cols-2">
-      {/* Destination Map */}
-      <DestinationMap destinations={destinations} onMarkerClick={setActiveDestination} />
-
-      {/* Destination Card */}
-      <DestinationCard destination={activeDestination} />
-    </div>
+    <section className="b-rose-600 w-full max-w-5xl mx-auto">
+      <div className="b-fuchsia-600 grid grid-cols-1 lg:grid-cols-2 gap-y-7 lg:gap-y-0 place-content-center min-h-[28rem]">
+        {/* Destination Map */}
+        <div className="b-amber-500 max-w-xl w-full mx-auto p-5 md:p-0">
+          <DestinationMap destinations={destinations} onMarkerClick={setActiveDestination} />
+        </div>
+        {/* Destination Card */}
+        <DestinationCard destination={activeDestination} />
+      </div>
+    </section>
   );
 }

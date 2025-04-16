@@ -1,9 +1,10 @@
 "use client";
 
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, Tooltip } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { Destination } from "@/types";
+import Image from "next/image";
 
 // Fix for default marker icons
 const defaultIcon = L.icon({
@@ -37,7 +38,11 @@ export default function DestinationMap({ destinations, onMarkerClick }: Destinat
             click: () => onMarkerClick(destination),
           }}
         >
-          <Popup>{destination.name}</Popup>
+          <Popup className="flex items-center justify-center">
+            <Image src={destination.image} alt={destination.name} width={100} height={100} className="rounded-lg" />
+            <p>{destination.location}</p>
+          </Popup>
+          <Tooltip>{destination.name}</Tooltip>
         </Marker>
       ))}
     </MapContainer>
