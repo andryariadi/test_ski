@@ -5,8 +5,8 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { Destination } from "@/types";
 import Image from "next/image";
+import Link from "next/link";
 
-// Fix for default marker icons
 const defaultIcon = L.icon({
   iconUrl: "https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png",
   iconRetinaUrl: "https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png",
@@ -23,8 +23,6 @@ interface DestinationMapProps {
 }
 
 export default function DestinationMap({ destinations, onMarkerClick }: DestinationMapProps) {
-  console.log({ destinations }, "<--- destinationsMap");
-
   return (
     <MapContainer center={[-8.4095, 115.1889]} zoom={9} style={{ height: "420px", width: "100%", borderRadius: "0.5rem" }}>
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
@@ -39,7 +37,9 @@ export default function DestinationMap({ destinations, onMarkerClick }: Destinat
           }}
         >
           <Popup className="flex items-center justify-center">
-            <Image src={destination.image} alt={destination.name} width={100} height={100} className="rounded-lg" />
+            <Link href={`/destination/${destination.id}`}>
+              <Image src={destination.image} alt={destination.name} width={100} height={100} className="rounded-lg" />
+            </Link>
             <p>{destination.location}</p>
           </Popup>
           <Tooltip>{destination.name}</Tooltip>

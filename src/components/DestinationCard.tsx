@@ -8,10 +8,8 @@ interface DestinationCardProps {
 }
 
 export default function DestinationCard({ destination }: DestinationCardProps) {
-  console.log(destination, "<--- destinationCard");
-
   return (
-    <div className="b-green-600 flex flex-col items-center justify-center w-full max-w-sm md:max-w-xl mx-auto">
+    <div className="flex flex-col items-center justify-center w-full max-w-sm md:max-w-xl mx-auto">
       <figure className="group hover:bg-gray-900 lg:w-full lg:max-w-sm h-full max-h-screen rounded-lg hover:shadow-md hover:shadow-gray-800/50 transition-all duration-300 overflow-hidden">
         {/* Image Card */}
         <Image

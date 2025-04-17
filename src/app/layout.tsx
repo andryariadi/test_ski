@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Destination Bali",
+  title: "Destinations Bali",
   description: "Travel to Bali with us",
 };
 
